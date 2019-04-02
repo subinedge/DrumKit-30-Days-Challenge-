@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS30 - 1 - Drumkit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div class="key" data-key="65">
+        <kbd>A</kbd>
+        <span class="sound">Clap</span>
+      </div>
+
+      <div class="key" data-key="83">
+        <kbd>S</kbd>
+        <span class="sound">dfghj</span>
+      </div>
+
+      <div class="key" data-key="68">
+        <kbd>D</kbd>
+        <span class="sound">rtyu</span>
+      </div>
+
+      <div class="key" data-key="70">
+        <kbd>F</kbd>
+        <span class="sound">wsdc</span>
+      </div>
+
+      <div class="key" data-key="71">
+        <kbd>G</kbd>
+        <span class="sound">uhbg</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/snare.wav"></audio>
+    <audio data-key="83" src="sounds/clap.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/ride.wav"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
